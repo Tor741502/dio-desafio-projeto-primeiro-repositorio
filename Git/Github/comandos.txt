@@ -1,0 +1,31 @@
+Anotações sobre Git
+
+Comandos para configurar (no terminal):
+git --version
+
+git config --global user.name "IGUAL_DO_GITHUB"
+
+git config --global user.email "IGUAL_DO_GITHUB"
+
+git config --global credential.helper cache
+
+git config --global credential.helper store
+
+
+
+Comandos normais:
+git status
+
+git clone COLAR_ENDEREÇO_DO_GITHUB
+
+git init
+
+git add .
+
+git commit -m "NOME DA VERSÃO"
+
+git remote add origin URL_DO_REPO_GITHUB *usado às vezes
+
+git branch -M NOMEDOBRANCH *para renomear branch e versões
+
+git push -u origin main
